@@ -1,5 +1,11 @@
 # MCP for Security
 
+> [!WARNING]
+> **This repository is no longer actively maintained.**
+>
+> All tools have been migrated to **[Bolt](https://github.com/cyberstrikeus/bolt)** — a fully rewritten, Docker-supported MCP security tool server.
+> Please use Bolt instead: [https://github.com/cyberstrikeus/bolt](https://github.com/cyberstrikeus/bolt)
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/cyproxio/mcp-for-security?style=social)](https://github.com/cyproxio/mcp-for-security/stargazers)
 [![Docker](https://img.shields.io/github/release/cyproxio/mcp-for-security?style=social)](https://github.com/cyproxio/mcp-for-security/releases)
@@ -140,47 +146,6 @@ Retrieves historical URLs from the Wayback Machine to discover forgotten endpoin
 WordPress vulnerability scanner for detecting outdated plugins, themes, and common misconfigurations.
 
 
-## TO-DO Tools 
-- commix
-- Corsy
-- CrackMapExec
-- crlfuzz
-- dalfox
-- dnsrecon
-- feroxbuster
-- gau
-- getJS
-- github-endpoints
-- github-subdomains
-- gobuster
-- gospider
-- hakrawler
-- kiterunner
-- medusa
-- naabu
-- ParamSpider
-- puredns
-- s3scanner
-- tlsx
-- wafw00f
-- webscreenshot
-- wpscan
-- ...
-
-## Development
-
-The project uses TypeScript and the Model Context Protocol SDK. To contribute:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## Installation
-
-For installation instructions for each tool, please refer to the individual documentation linked in the table above.
-
-## Usage
-
-Each tool has specific parameters and usage instructions. For detailed information, see the documentation for the specific tool you want to use.
-
+---
+> **Note:** The MCP servers in this repository have been integrated into [Bolt](https://github.com/cyberstrikeus/bolt).
+> For new tool development and contributions, please visit: [cyberstrikeus/bolt](https://github.com/cyberstrikeus/bolt)
